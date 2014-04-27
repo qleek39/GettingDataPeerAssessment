@@ -1,4 +1,6 @@
-## 1. load training and test data set and combine them to create the whole dataset
+The run_analysis.R script load the training and testing dataset and combine them to create one dataset. It then createsa second, independent tidy data set with the average of each variable for each activity and each subject. For more details please look at the comments in the script.
+
+### 1. load training and test data set and combine them to create the whole dataset
  load feature data for the training set
 
 
@@ -22,4 +24,4 @@
  set the names for columns in the whole dataset
 
 
-## 2. use the aggregation function to calculate the average tidy data set
+### 2. use the aggregation function to calculate the average tidy data set
