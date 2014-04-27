@@ -1,24 +1,26 @@
-# load feature data for the training set
+
+# 1. load training and test data set and combine them to create the whole dataset
+ load feature data for the training set
 
 
-# load feature data for the test set
+ load feature data for the test set
 
-# row bind the feature set for the training data set and the test data set to the feature set for the whole dataset
-
-
-# read the feature names  from the file features.txt
+ row bind the feature set for the training data set and the test data set to the feature set for the whole dataset
 
 
-# use the grep function to  find indexes of feature names that contain "mean" or "Mean" or "std"
+ read the feature names  from the file features.txt
 
 
-# extract columns of features that has mean, Mean, or std in their names
+ use the grep function to  find indexes of feature names that contain "mean" or "Mean" or "std"
 
 
-# build the whole dataset with mean and std features plus subject and activity columns 
+ extract columns of features that has mean, Mean, or std in their names
 
 
-# set the names for columns in the whole dataset
+ build the whole dataset with mean and std features plus subject and activity columns 
 
 
-# use the aggregation function to calculate the average tidy data set
+ set the names for columns in the whole dataset
+
+
+# 2. use the aggregation function to calculate the average tidy data set
