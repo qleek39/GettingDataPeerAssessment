@@ -1,4 +1,3 @@
-#setwd('/home/quan/Courses/Coursera-JohnHopkinsU-GettingNCleaningData/201404Session/PeerAssessments/PeerAssessment01/')
 
 # load feature data for the training set
 train.df <- read.table(file = 'UCI HAR Dataset/train/X_train.txt', header = FALSE)
