@@ -1,5 +1,4 @@
-
-# 1. load training and test data set and combine them to create the whole dataset
+## 1. load training and test data set and combine them to create the whole dataset
  load feature data for the training set
 
 
@@ -23,4 +22,4 @@
  set the names for columns in the whole dataset
 
 
-# 2. use the aggregation function to calculate the average tidy data set
+## 2. use the aggregation function to calculate the average tidy data set
